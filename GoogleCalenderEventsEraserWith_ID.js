@@ -1,6 +1,6 @@
 function deleteEventsInRange() {
   // Replace with your actual non-default Calendar ID
-  const calendarId = '65f778738493e607fa239b0dfa04feec949967a498235db007174fc672e0ffae@group.calendar.google.com'; 
+  const calendarId = 'YOUR_GOOGLE_CALENDER_ID SHALL BE PASTED HERE'; 
   const calendar = CalendarApp.getCalendarById(calendarId);
   
   const startDate = new Date('2026-01-01T00:00:00');
